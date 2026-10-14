@@ -1,4 +1,4 @@
-/* remove thic comment to add @import font or CSS variables at the top of this file */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Roboto+Slab:wght@400;700&display=swap');
 * {
   box-sizing: border-box;
 }
@@ -47,6 +47,17 @@ footer {
 }
 
 /* WRITE YOUR styling/typesetting CSS code BELOW HERE */
+h1, h2 {
+  font-family: "Roboto Slab", Georgia, serif;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
 
 body {
   font-family: Merriweather, Georgia, serif;
@@ -59,7 +70,6 @@ body {
 header {
   text-align: center;
   letter-spacing: 3px;
-  font-size: large;
 }
 
 h2 {
@@ -107,18 +117,12 @@ nav a {
   align-items: center;
   justify-content: center;
   font-size: 1.2rem;
-  text-decoration: none;
-}
-
-.container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
+  
 }
 
 a {
   text-decoration: underline;
-  outline-color: transparent;
+  outline: none;
   line-height: 1.5;
   color: #a66;
 }
