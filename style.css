@@ -156,5 +156,9 @@ ol {
 }
 
 ul {
-  list-style-type: circle;
+  list-style-type: "▸ ";
+}
+
+li::marker {
+  color: black;
 }
